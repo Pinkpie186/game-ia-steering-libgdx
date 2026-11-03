@@ -2,6 +2,8 @@
 
 Implementação em Java 17 e libGDX 1.14.0 baseada na atividade e nos conceitos do material `game_IA_atualizado.pptx`. Inclui todos os itens obrigatórios e o bônus de bando.
 
+[Ver o vídeo demonstrativo de 48 segundos](Demonstracao-48s.mp4).
+
 ## Executar
 
 Para experimentar sem configurar Java, use a entrega separada `Aplicativo-Windows.zip`: extraia a pasta inteira e abra `Iniciar.bat`. Esse pacote inclui um runtime Java para Windows x64.
@@ -96,16 +98,18 @@ Os cinco testes verificam a chegada com parada, as transições da FSM, a anteci
 
 Os eventos do vídeo são programados pelo método `roteiro`, mas o movimento usa as mesmas classes, forças e integração do modo interativo.
 
-## Publicar no seu repositório
+## Repositório publicado
 
-Esta pasta contém um repositório Git local com o código inicial versionado. Nenhum repositório remoto foi criado, pois não foi fornecido um destino de publicação. Depois de criar um repositório vazio na sua conta, na raiz desta pasta execute:
+Código e vídeo disponíveis em https://github.com/Pinkpie186/game-ia-steering-libgdx.
+
+Para baixar o código com Git:
 
 ```sh
-git remote add origin URL_DO_SEU_REPOSITORIO
-git push -u origin main
+git clone https://github.com/Pinkpie186/game-ia-steering-libgdx.git
+cd game-ia-steering-libgdx
 ```
 
-Anexe também o vídeo à entrega ou disponibilize seu link conforme a orientação da disciplina. Revise o código e a explicação para conseguir apresentar como os comportamentos funcionam.
+Leia [EXPLICACAO.md](EXPLICACAO.md) para entender as fórmulas e a máquina de estados.
 
 ## Referências e recursos
 
